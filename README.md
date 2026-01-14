@@ -1,1 +1,1 @@
-# homebrew-gcop-rs
+# AptS-1547/tap
