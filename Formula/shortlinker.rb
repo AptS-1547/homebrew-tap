@@ -10,7 +10,7 @@ class Shortlinker < Formula
   on_macos do
     on_arm do
       url "https://github.com/AptS-1547/shortlinker/releases/download/v0.3.0/shortlinker_v0.3.0_macos_aarch64"
-      sha256 "97a3b0b437ff6fcb991a4d8c90349fea99b2efb61900913081edd7d19cd31bae"
+      sha256 "b9b528efa2fdbb71afc678a370e10818f04c9dccf95d39a1db38ef9e81fa32af"
 
       def install
         bin.install "shortlinker_v0.3.0_macos_aarch64" => "shortlinker"
@@ -19,7 +19,7 @@ class Shortlinker < Formula
 
     on_intel do
       url "https://github.com/AptS-1547/shortlinker/releases/download/v0.3.0/shortlinker_v0.3.0_macos_x86_64"
-      sha256 "366071af29cabfe6ff5a0782f197decffb97dd2327fe77312d02f024c583b88f"
+      sha256 "43b6cca6d099adf2e8f38ca2d03bcf67d04796d2fe6015d357ef7a3b4656f2aa"
 
       def install
         bin.install "shortlinker_v0.3.0_macos_x86_64" => "shortlinker"
@@ -30,7 +30,7 @@ class Shortlinker < Formula
   on_linux do
     on_arm do
       url "https://github.com/AptS-1547/shortlinker/releases/download/v0.3.0/shortlinker_v0.3.0_linux_aarch64"
-      sha256 "024733e4712dfc26deb99df3c184a5f7f81614cb414810b4088b4eded65c459b"
+      sha256 "07a9c05d67b2ff008746cea06c75466dad630a94b54c728b707d0e971ccea3e8"
 
       def install
         bin.install "shortlinker_v0.3.0_linux_aarch64" => "shortlinker"
@@ -39,7 +39,7 @@ class Shortlinker < Formula
 
     on_intel do
       url "https://github.com/AptS-1547/shortlinker/releases/download/v0.3.0/shortlinker_v0.3.0_linux_x86_64"
-      sha256 "e54be4ac5a27a63a3a5efc529e039991a4b8f3160bc5590cdf76f60d711b391d"
+      sha256 "cd2cc4049735423eb0aeb08896fc5d3ef3bada3f0bd897bfeb042987536794e4"
 
       def install
         bin.install "shortlinker_v0.3.0_linux_x86_64" => "shortlinker"
