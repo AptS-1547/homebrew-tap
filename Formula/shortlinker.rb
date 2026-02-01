@@ -4,45 +4,45 @@
 class Shortlinker < Formula
   desc "A minimalist URL shortener service supporting HTTP 307 redirection"
   homepage "https://github.com/AptS-1547/shortlinker"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/AptS-1547/shortlinker/releases/download/v0.4.0/shortlinker_v0.4.0_macos_aarch64"
-      sha256 "2ea4b50d0eab0a2a7278c2718c5351d54e0cd7069a7796e56f50469a0a3f644e"
+      url "https://github.com/AptS-1547/shortlinker/releases/download/v0.4.1/shortlinker_v0.4.1_macos_aarch64"
+      sha256 "a9d84c095d436592477eea3d6725ad3fd61523026a647b5cb9dc0a2c1a24efeb"
 
       def install
-        bin.install "shortlinker_v0.4.0_macos_aarch64" => "shortlinker"
+        bin.install "shortlinker_v0.4.1_macos_aarch64" => "shortlinker"
       end
     end
 
     on_intel do
-      url "https://github.com/AptS-1547/shortlinker/releases/download/v0.4.0/shortlinker_v0.4.0_macos_x86_64"
-      sha256 "3785afa110967c60ade3a39460deb61eacbbd20855ef6ea4c4f3bb6dbe52804e"
+      url "https://github.com/AptS-1547/shortlinker/releases/download/v0.4.1/shortlinker_v0.4.1_macos_x86_64"
+      sha256 "79e51fd780ab6d17a82469727271530e65a391a1cee575a7cbb09e4ca4c63638"
 
       def install
-        bin.install "shortlinker_v0.4.0_macos_x86_64" => "shortlinker"
+        bin.install "shortlinker_v0.4.1_macos_x86_64" => "shortlinker"
       end
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AptS-1547/shortlinker/releases/download/v0.4.0/shortlinker_v0.4.0_linux_aarch64"
-      sha256 "0db21c1a5eba49425568151f66753e6d02bf5ede5de8ccd7437476e5fd1c6a3a"
+      url "https://github.com/AptS-1547/shortlinker/releases/download/v0.4.1/shortlinker_v0.4.1_linux_aarch64"
+      sha256 "c6d0c6408339db123120c146f906a993d30d5533ebb6bf06d80810f2ceed6226"
 
       def install
-        bin.install "shortlinker_v0.4.0_linux_aarch64" => "shortlinker"
+        bin.install "shortlinker_v0.4.1_linux_aarch64" => "shortlinker"
       end
     end
 
     on_intel do
-      url "https://github.com/AptS-1547/shortlinker/releases/download/v0.4.0/shortlinker_v0.4.0_linux_x86_64"
-      sha256 "a3e358ead6fcf3ccf0d2ba214f29d894b218dafb6f2b7d5876f700667bde2eab"
+      url "https://github.com/AptS-1547/shortlinker/releases/download/v0.4.1/shortlinker_v0.4.1_linux_x86_64"
+      sha256 "c29129207baf9e2a65097fb634ea3366777a41f03a8624ae8a1704bf6fa8f964"
 
       def install
-        bin.install "shortlinker_v0.4.0_linux_x86_64" => "shortlinker"
+        bin.install "shortlinker_v0.4.1_linux_x86_64" => "shortlinker"
       end
     end
   end
