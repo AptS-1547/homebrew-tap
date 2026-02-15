@@ -1,13 +1,13 @@
 cask "dns-orchestrator" do
-  version "1.9.1"
+  version "1.10.0"
 
   on_arm do
-    sha256 "882b54c0f99b8454a998f76a864b90d1f6646f44755b21af6b92834c39964840"
+    sha256 "adecfbabd19a356b9bad2f1970e64b4126592c6f957f38c259948cd818216f13"
     url "https://github.com/AptS-1547/dns-orchestrator/releases/download/v#{version}/DNS.Orchestrator_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "f6c17eff1303e2467ed454d8445cd6c5cd3213c501fd7517ff0362a7098fe143"
+    sha256 "1ef241b033d3ead673c12a88f7a34e8213190d053604a3ac8c474629c4a25c48"
     url "https://github.com/AptS-1547/dns-orchestrator/releases/download/v#{version}/DNS.Orchestrator_#{version}_x64.dmg"
   end
 
@@ -23,4 +23,3 @@ cask "dns-orchestrator" do
     "~/Library/Preferences/net.esaps.dns-orchestrator.plist",
   ]
 end
-
