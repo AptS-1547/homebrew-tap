@@ -4,13 +4,13 @@
 class GcopRs < Formula
   desc "AI-powered Git commit message generator and code reviewer"
   homepage "https://github.com/AptS-1547/gcop-rs"
-  version "0.13.6"
+  version "0.13.7"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/AptS-1547/gcop-rs/releases/download/v#{version}/gcop-rs-v#{version}-macos-arm64"
-      sha256 "f9e5338c9a3b81c4b52517c527c796b2f36e971d7071e66ce0de67d179933764"
+      sha256 "1ca999cbcd1b17301ca312cbf65e5566e7f3ecac759ebfc34f93685b86069d88"
 
       def install
         bin.install "gcop-rs-v#{version}-macos-arm64" => "gcop-rs"
@@ -19,7 +19,7 @@ class GcopRs < Formula
 
     on_intel do
       url "https://github.com/AptS-1547/gcop-rs/releases/download/v#{version}/gcop-rs-v#{version}-macos-amd64"
-      sha256 "4c62fd1c15d7c361703a6842440f04dcedc18e95f841b423e2f69881fe115f2a"
+      sha256 "bc3864be22eba3789aaa66fe7a00d3722a2513aa547a75f82b15d325a1e50d3a"
 
       def install
         bin.install "gcop-rs-v#{version}-macos-amd64" => "gcop-rs"
@@ -30,7 +30,7 @@ class GcopRs < Formula
   on_linux do
     on_arm do
       url "https://github.com/AptS-1547/gcop-rs/releases/download/v#{version}/gcop-rs-v#{version}-linux-arm64"
-      sha256 "ffb2ba1a7a413daa6f37b3b870020135771b147cd3546671acc6347be90a0f59"
+      sha256 "4f2eac6d7b942b0bc9071b0b597e924f6f94c47c2e089ab8c86b3c8feaacfa4e"
 
       def install
         bin.install "gcop-rs-v#{version}-linux-arm64" => "gcop-rs"
@@ -39,7 +39,7 @@ class GcopRs < Formula
 
     on_intel do
       url "https://github.com/AptS-1547/gcop-rs/releases/download/v#{version}/gcop-rs-v#{version}-linux-amd64"
-      sha256 "a05c79644e6f09870c423bf45f93ad78e7ece337275d1a7323592c84994191d8"
+      sha256 "094461dcf97db4485ab62f074897662bcc8e0453bc4420a96d0c9480fad4a117"
 
       def install
         bin.install "gcop-rs-v#{version}-linux-amd64" => "gcop-rs"
